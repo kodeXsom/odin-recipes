@@ -1,0 +1,29 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 100;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    margin:30px;
+    padding: 20px;
+    border: 2px dotted red;
+    text-align: center;
+    background-color: antiquewhite;
+    font-weight: 900;
+}
+.list{
+    margin: 30px 70px;
+    padding: 15px;
+    background-color: aquamarine;
+
+
+}
+.list li{
+    padding: 10px;
+    height: 25px;
+}
+.lasagna{
+
+}
