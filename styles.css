@@ -3,12 +3,7 @@
     margin: 100;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: rgb(238, 245, 244); */
-/* }
-.heading{
-    height: 300px;
-    width: 750px;
-} */
+   
 
 .h1{
     margin:30px;
@@ -18,10 +13,7 @@
     background-color: antiquewhite;
     font-weight: 900;
 }
-/* .logo{
-    display: inline-block;
-    height: 60px;
-    width:auto; */
+
 
 .index-list{
     margin: 30px 70px;
@@ -34,7 +26,7 @@
     
 
 }
-.list-lasagna li:hover{
+.list-lasagna,.list-sandwich li:hover{
     color:blue;
 }
 .index-ol li a:hover{
@@ -48,25 +40,29 @@ a{
     padding: 1px;
     background-color: aquamarine;
 }
-.lasagna{
+.lasagna,.sandwich{
     background-color: rgb(161, 102, 25);
     text-align: center;
     border-radius: 10px;
 
 }
-.body-lasagna{
+.body-lasagna,.body-sandwich{
     background-color: beige;
+    margin: 50px;
+    border: 1px dotted black;
+    padding: 1rem;
 }
-.lasagna-logo{
+.lasagna-logo,.sandwich-logo{
     display: block;
     margin: 0 auto;
     border-radius: 10px;
 }
-.list-lasagna{
+.list-lasagna,.list-sandwich{
     display: block;
     margin: 30px 70px;
     padding: 45px;
     border: 3px solid black;
+    border-radius: 13px;
     background-color: aquamarine;
     text-decoration:none;
     list-style: decimal;
@@ -88,3 +84,5 @@ a{
   background-color: rgb(80, 62, 237);
   color: white;
 }
+
+
