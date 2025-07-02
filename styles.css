@@ -26,6 +26,9 @@
     
 
 }
+.list-lasagna,.list-sandwich{
+    color: black;
+}
 .list-lasagna li:hover{
     color: blue;
 
