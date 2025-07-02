@@ -26,7 +26,11 @@
     
 
 }
-.list-lasagna,.list-sandwich li:hover{
+.list-lasagna li:hover{
+    color: blue;
+
+}
+.list-sandwich li:hover{
     color:blue;
 }
 .index-ol li a:hover{
